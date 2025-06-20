@@ -39,15 +39,19 @@ def query_node(state: State) -> State:
         goto=END
     )
 
-def end_node(state: State):
-    return {**state, "answer": "Conditions not matched."}
+def checker_node(state: State)->State:
+    result=run_checker(state["ocr_text"],state["question"])
+    return Command(
+        update={"check": result[1]},
+        goto=result[0]
+    )
 
 workflow=StateGraph(State)
 workflow.add_node("ocr",ocr_node)
 workflow.add_node("paser",paser_node)
 workflow.add_node("query",query_node)
 workflow.add_node("supervisor",supervisor)
-workflow.add_node("checker",run_checker)
+workflow.add_node("checker",checker_node)
 
 workflow.add_edge(START,"supervisor")
 workflow.add_edge("query",END)
