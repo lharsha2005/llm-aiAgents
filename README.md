@@ -1,4 +1,4 @@
-LLM AI Agents - README.txt
+LLM AI Agents
 ==========================
 
 Project Title:
