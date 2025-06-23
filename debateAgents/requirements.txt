@@ -1,0 +1,12 @@
+langgraph
+langchain
+langchain-groq
+langchain_core
+langchain_community
+paddleocr
+paddlepaddle
+Pillow
+groq
+python-dotenv
+langchain-openai
+streamlit
