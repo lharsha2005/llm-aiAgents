@@ -1,4 +1,4 @@
-debateAgents - README.txt
+debateAgents
 =========================
 
 Project Submodule:
