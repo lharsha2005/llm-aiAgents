@@ -1,0 +1,15 @@
+langgraph
+langchain
+langchain-groq
+langchain_core
+langchain_community
+paddleocr==2.10.0
+paddlepaddle
+Pillow
+groq
+python-dotenv
+langchain_openai
+chromadb
+pdf2image
+openai
+streamlit
