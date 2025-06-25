@@ -1,0 +1,13 @@
+langgraph
+langchain
+langchain-groq
+langchain_core
+langchain_community
+langgraph-checkpoint-sqlite
+paddleocr==2.10.0
+paddlepaddle
+Pillow
+faiss-cpu
+python-dotenv
+langchain-openai
+streamlit
