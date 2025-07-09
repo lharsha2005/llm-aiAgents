@@ -1,7 +1,6 @@
 import json
 from graph import GraphRAG
 from langchain_groq import ChatGroq
-from langchian_openai import ChatOpenai
 from dotenv import load_dotenv
 import os
 load_dotenv
